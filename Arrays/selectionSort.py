@@ -7,6 +7,7 @@ def selectionSortAlgo(arr):
         mini = i
         for j in range(i+1, n):
             if(arr[j] < arr[mini]):
+                mini = j
                 arr[j], arr[mini] = arr[mini], arr[j]
                 
 
