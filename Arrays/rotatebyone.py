@@ -4,20 +4,19 @@ print("before rotated by one: ")
 for i in arr:
     print(i,end=" ")
 print("\nafter rotated by one: ")
-def rotateleftbyone(arr):
+def rotate_left_by_one(arr):
     n = len(arr) - 1
     
-    firstEle = arr[0]
-    # print(firstEle)
+    first_Element = arr[0]
     
     for i in range(0,n):
         arr[i] = arr[i + 1]
     
     
-    arr[n] = firstEle
+    arr[n] = first_Element
     
     for i in arr:
         print(i,end=" ")
     
     
-rotateleftbyone(arr)
+rotate_left_by_one(arr)
