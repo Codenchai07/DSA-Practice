@@ -15,14 +15,8 @@ def move_negative_numbers_left(arr):
             j += 1
         else:
             i += 1
-            
-    display_array(arr)
-    
-
-def display_array(arr):
-    print(arr)
-    
     
     
 move_negative_numbers_left(arr)
+print(arr)
         
