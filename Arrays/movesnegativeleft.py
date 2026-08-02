@@ -8,7 +8,7 @@ def move_negative_numbers_left(arr):
     
     n = len(arr)
     
-    while i <= n - 1:
+    while i < n:
         if arr[i] < 0:
             arr[j], arr[i] = arr[i], arr[j]
             i += 1
