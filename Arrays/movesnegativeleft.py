@@ -15,8 +15,3 @@ def move_negative_numbers_left(arr):
             j += 1
         else:
             i += 1
-    
-    
-move_negative_numbers_left(arr)
-print(arr)
-        
