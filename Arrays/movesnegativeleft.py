@@ -15,3 +15,8 @@ def move_negative_numbers_left(arr):
             j += 1
         else:
             i += 1
+            
+    return arr
+
+
+print(move_negative_numbers_left(arr))
